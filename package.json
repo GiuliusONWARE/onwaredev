@@ -1,0 +1,25 @@
+{
+  "name": "onwaredev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiuliusONWARE/onwaredev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiuliusONWARE/onwaredev/issues"
+  },
+  "homepage": "https://github.com/GiuliusONWARE/onwaredev#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
