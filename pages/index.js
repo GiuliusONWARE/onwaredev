@@ -1,18 +1,16 @@
 import Link from 'next/link';
 
 function Home() {
-    return (
-        
-        <div>
-            <h1>Hello World 3</h1>
-            <h3>Site em desenvolvimento</h3>
-            <p>By: Giulius</p>
+    return (<div>
+		
+        <h1>Home</h1>
+        <p>Site em Desenvolvimento</p>
+		<p>by: Giulius</p>
 
-            <Link href="/pcs">
-                <a>PCs</a>
-            </Link>
-        </div>
-    )
+        <Link href="pcs">
+            <a>Pcs</a>
+        </Link>
+    </div>)
 }
 
 export default Home
