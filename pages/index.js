@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>ONware</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>ONWARE</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Site em Desenvolvimento
         </p>
 
         
