@@ -66,7 +66,7 @@ export default function Home() {
 
         a {
           text-decoration: none;
-          padding: 5px 15px 0 15px;
+          padding: 5px 15px 0px 15px;
         }
 
         .title a {
