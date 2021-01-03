@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          ONWARE <a href="/pc.js">PC</a>
+          ONWARE<a href="/pc.js">PC</a>
         </h1>
 
         <p className="description">
@@ -65,8 +65,8 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
           text-decoration: none;
+          padding: 10px;
         }
 
         .title a {
