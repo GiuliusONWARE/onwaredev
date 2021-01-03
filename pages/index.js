@@ -5,12 +5,12 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>ONWARE</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          ONWARE<a href="/pc.js">PC</a>
+          ONWARE <a href="/pc.js">PC</a>
         </h1>
 
         <p className="description">
@@ -19,26 +19,11 @@ export default function Home() {
 
         
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
       
       <style jsx>{`
         @font-face {
-          font-family: Anurati;
-          src: local('Anurati.otf'), url('Anurati.otf');
-        }
-
-        h1 {
-          font-family: Anurati;
+          font-family: "Anurati";
+          src: url("/fonts/Anurati.otf");
         }
 
         .container {
@@ -57,6 +42,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+
         }
 
         footer {
@@ -84,8 +70,9 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: #000;
           text-decoration: none;
+          background-color: #fff;
         }
 
         .title a:hover,
@@ -98,6 +85,8 @@ export default function Home() {
           margin: 0;
           line-height: 1.15;
           font-size: 4rem;
+          font-family: Anurati;
+          color: #fff;
         }
 
         .title,
@@ -108,15 +97,7 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+          color: #fff;
         }
 
         .grid {
@@ -176,9 +157,9 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+          background-color: #000;
         }
 
         * {
