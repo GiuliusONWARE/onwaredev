@@ -1,16 +1,22 @@
 import Head from 'next/head'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>ONWARE</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>WARE</title>
+        <link rel="icon" href="/onlogobq.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          ONWARE<a href="/pc.js">PC</a>
+          ONWARE{' '}
+          <Link href="/posts/pc">
+            <a>PC</a>
+          </Link>
+          
         </h1>
 
         <p className="description">
@@ -83,9 +89,10 @@ export default function Home() {
 
         .title {
           margin: 0;
-          line-height: 1.15;
+          line-height: 110%;
           font-size: 4rem;
           font-family: Anurati;
+          letter-spacing: 0px;
           color: #fff;
         }
 
